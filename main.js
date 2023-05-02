@@ -3,10 +3,10 @@ const list = document.querySelector('ul.list');
 const popup = document.querySelector('#popup');
 const inputAdd = document.querySelector('#toAdd');
 const inputDelete = document.querySelector('#toDelete');
+const count = document.querySelector('.itemsCount');
 
 function updateCountItems()
 {
-  const count = document.querySelector('.itemsCount');
   count.textContent = items.length;
 }
 
